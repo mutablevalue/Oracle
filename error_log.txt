@@ -1,0 +1,43 @@
+
+[2025-04-30 19:05:20 UTC] Initialization Error: DiscordAPIError[50035]: Invalid Form Body
+0.options[3][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+0.options[4][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+    at handleErrors (C:\Users\ciner\OracleAC\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async SequentialHandler.runRequest (C:\Users\ciner\OracleAC\node_modules\@discordjs\rest\dist\index.js:1149:23)
+    at async SequentialHandler.queueRequest (C:\Users\ciner\OracleAC\node_modules\@discordjs\rest\dist\index.js:980:14)
+    at async _REST.request (C:\Users\ciner\OracleAC\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async registerCommands (C:\Users\ciner\OracleAC\main.js:102:5)
+    at async initializeBot (C:\Users\ciner\OracleAC\main.js:74:5)
+[2025-04-30 19:08:26 UTC] Initialization Error: DiscordAPIError[50035]: Invalid Form Body
+0.options[3][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+0.options[4][APPLICATION_COMMAND_OPTIONS_REQUIRED_INVALID]: Required options must be placed before non-required options
+    at handleErrors (C:\Users\ciner\OracleAC\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async SequentialHandler.runRequest (C:\Users\ciner\OracleAC\node_modules\@discordjs\rest\dist\index.js:1149:23)
+    at async SequentialHandler.queueRequest (C:\Users\ciner\OracleAC\node_modules\@discordjs\rest\dist\index.js:980:14)
+    at async _REST.request (C:\Users\ciner\OracleAC\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async registerCommands (C:\Users\ciner\OracleAC\main.js:102:5)
+    at async initializeBot (C:\Users\ciner\OracleAC\main.js:74:5)
+[2025-05-02 20:27:19 UTC] Initialization Error: TypeError: initBlacklistGroup is not a function
+    at initCommands (C:\Users\ciner\OracleAC\commands.js:574:3)
+    at initializeBot (C:\Users\ciner\OracleAC\main.js:62:5)
+    at Object.<anonymous> (C:\Users\ciner\OracleAC\main.js:117:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+[2025-05-03 17:04:46 UTC] Initialization Error: ReferenceError: registerEvents is not defined
+    at init (C:\Users\ciner\OracleAC\commands\custom_scripts\monitor.js:744:3)
+    at initCommands (C:\Users\ciner\OracleAC\commands\commands.js:577:3)
+    at initializeBot (C:\Users\ciner\OracleAC\main.js:62:5)
+    at Object.<anonymous> (C:\Users\ciner\OracleAC\main.js:117:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
